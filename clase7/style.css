@@ -39,3 +39,33 @@ body{
   left: 50px;
   border-radius: 0px 5px 20px 20px;
 }
+
+.barba{
+  position: relative;
+  top: 46px;
+  width: 100px;
+  height: 130px;
+  background-color: var(--black);
+  border-radius: 50px;
+} 
+
+.cuello{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  left: 16px;
+  top: 200px;
+  background-color: #F0C1A7;
+}
+
+
+
+.punto{
+  top: 4px;
+  left: 9px;
+  position: relative;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+}
