@@ -40,9 +40,19 @@ body{
   border-radius: 0px 5px 20px 20px;
 }
 
+.nariz{
+  position: absolute;
+  top: 86px;
+  left: 32px;
+  width: 36px;
+  height: 30px;
+  background-color: var(--skin);
+  border-radius: 20px 20px 20px 20px;
+}
+
 .barba{
-  position: relative;
-  top: 46px;
+  position: absolute;
+  top: 89px;
   width: 100px;
   height: 130px;
   background-color: var(--black);
@@ -50,20 +60,19 @@ body{
 } 
 
 .cuello{
-  position: relative;
+  position: absolute;
   width: 70px;
   height: 40px;
   left: 16px;
-  top: 200px;
+  top: 194px;
   background-color: #F0C1A7;
 }
-
 
 
 .punto{
   top: 4px;
   left: 9px;
-  position: relative;
+  position: absolute;
   width: 5px;
   height: 5px;
   background-color: black;
